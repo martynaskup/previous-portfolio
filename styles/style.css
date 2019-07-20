@@ -93,8 +93,12 @@ h2 {
     padding: 0 10px;
 }
 .about p {
-    margin-top: 10px;
+    margin-bottom: 18px;
 }
+.about p:last-of-type {
+    margin-bottom: 0px;
+}
+
 
 /******** PROJECTS ********/
 .projects h1 {
@@ -112,10 +116,6 @@ h2 {
     margin: 20px auto;
     text-align: center;
     padding: 10px;
-}
-.project:hover {
-    height: 450px;
-    width: 300px;
 }
 .proj-img {
     width: 220px;
@@ -187,12 +187,16 @@ No media query for `xs` since this is the default */
         align-items: center;
     }
     .project {
-        min-height: 420px;
+        min-height: 470px;
         width: 350px;
     }
     .project:hover {
-        height: 520px;
-        width: 380px;
+        background: rgb(250,250,250, 0.3);
+    }
+    .project a {
+        font-size: inherit;
+        height: 100%;
+        margin-bottom: 0;
     }
     .proj-img {
         width: 250px;
@@ -200,6 +204,7 @@ No media query for `xs` since this is the default */
     .project h2 {
         margin-bottom: 30px;
     }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -231,25 +236,29 @@ No media query for `xs` since this is the default */
         margin: 20px auto 10px;
     }
     .pretty_pic {
-        min-height: 260px;
-        max-height: 60vh;
+        height: 280px;
+        /* min-height: 280px;
+        max-height: 300px; */
         margin: 30px;
         float: left;
     }
     .about-text {
-        max-width: 710px;
+        max-width: 800px;
         padding: 30px 10px;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) { */
+@media (min-width: 992px) {
     body {
         font-size: 18px;
     }
     .about-text {
-        width: 730px;
         margin: 0 auto;
+    }
+    .pretty_pic {
+        height: 320px;
     }
 }
 
