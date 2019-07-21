@@ -2,12 +2,20 @@ const projectContainer = document.querySelector(".grid-container");
 
 const projectList = [
     {
+        title: "Your to-do list",
+        github: "https://github.com/snikerslala/js_todo_tasks",
+        img1: "./images/ToDo.png",
+        img2: "./images/ToDo-1.png",
+        desc: "Add the tasks you have to do in the future, search and delete them and check which deadlines did you miss already.",
+        tech: "HTML5, CSS3, JavaScript, <br>LocalStorage API, JSON",
+    },
+    {
         title: "Guest book",
         github: "https://github.com/snikerslala/guest_book",
         img1: "./images/GuestBook-Entries.png",
         img2: "./images/GuestBook.png",
         desc: "Let your guests to leave comments and display the guest book entries.",
-        tech: "HTML5, CSS3 and JavaScript based website",
+        tech: "HTML5, CSS3, JavaScript",
     },
     {
         title: "Image Search",
@@ -23,15 +31,7 @@ const projectList = [
         img1: "./images/DancingRobot.png",
         img2: "./images/DancingRobot-1.png",
         desc: "Check out how this robot can dance! You can do the same!",
-        tech: "HTML5 and CSS3 based website",
-    },
-    {
-        title: "Your to-do list",
-        github: "https://github.com/snikerslala/js_todo_tasks",
-        img1: "./images/ToDo.png",
-        img2: "./images/ToDo-1.png",
-        desc: "Add the tasks you have to do in the future, search and delete them and check which deadlines did you miss already.",
-        tech: "HTML5, CSS3, JavaScript, LocalStorage API, JSON",
+        tech: "HTML5, CSS3",
     },
     {
         title: "Robofriends",
@@ -40,6 +40,14 @@ const projectList = [
         img2: "./images/Robofriends-1.png",
         desc: "Display and search for Robofriends. <br>This app is build based on React.",
         tech: "React, Tachyons, Robo Hash API, JSONPlaceHolder API",
+    },
+    {
+        title: "Background Generator",
+        github: "https://github.com/snikerslala/background_generator",
+        img1: "./images/BackgroundGenerator.png",
+        img2: "./images/BackgroundGenerator-1.png",
+        desc: "Generate a gradient background code based on random colors or colors chosen by you!",
+        tech: "CSS3, JavaScript",
     },
 ];
 
