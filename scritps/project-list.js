@@ -15,7 +15,7 @@ const projectList = [
         img1: "./images/GuestBook-Entries.png",
         img2: "./images/GuestBook.png",
         desc: "Let your guests to leave comments and display the guest book entries.",
-        tech: "HTML5, CSS3, JavaScript",
+        tech: "HTML5, CSS3, JavaScript, Firebase",
     },
     {
         title: "Image Search",
