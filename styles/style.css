@@ -104,12 +104,7 @@ h2 {
 
 /******** PROJECTS ********/
 .projects h1 {
-    margin-bottom: 20px;
-}
-.projects h3 {
-    padding: 0 20px;
-    margin-bottom: 5vh;
-    font-size: 1.2rem;
+    margin-bottom: 55px;
 }
 .project {
     min-height: 400px;
