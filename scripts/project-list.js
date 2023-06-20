@@ -7,7 +7,7 @@ const projectList = [
     img1: './images/ToDo.png',
     desc:
       'Add the tasks you have to do in the future, search and delete them and check which deadlines did you miss already.',
-    tech: 'HTML5, CSS3, JavaScript, <br>LocalStorage API, JSON'
+    tech: 'JavaScript, LocalStorage API, <br>JSON, HTML5, CSS3'
   },
   {
     title: 'Guest book',
@@ -15,14 +15,14 @@ const projectList = [
     img1: './images/GuestBook-Entries.png',
     desc:
       'Let your guests to leave comments and display the guest book entries.',
-    tech: 'HTML5, CSS3, JavaScript, Firebase'
+    tech: 'JavaScript, Firebase, HTML5, CSS3'
   },
   {
     title: 'Image Search',
     github: 'https://snikerslala.github.io/image-search/',
     img1: './images/ImageSearch.png',
     desc: 'Looking for a picture? Use this search engine!',
-    tech: 'JavaScript, React, unsplash API'
+    tech: 'React, JavaScript, unsplash API'
   },
   {
     title: 'Dancing Robot',
@@ -37,7 +37,7 @@ const projectList = [
     img1: './images/Friendscards.png',
     desc: 'Search for your Cat Friends<br>and view their contact information.',
     tech:
-      'React (with Hooks), Tachyons, JSONPlaceHolder API, Robohash Image Generator API'
+      'React, Tachyons, JSONPlaceHolder API, Robohash Image Generator API'
   },
   {
     title: 'Background Generator',
@@ -50,7 +50,7 @@ const projectList = [
 ];
 
 const html = elem => {
-  const { title, github, img1, img2, desc, tech } = elem;
+  const { title, github, img1, desc, tech } = elem;
   return ` <div class="project">
         <a href="${github}" target="_blank">
             <h2>${title}</h2>
