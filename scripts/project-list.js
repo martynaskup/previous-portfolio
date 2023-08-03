@@ -3,7 +3,7 @@ const projectContainer = document.querySelector('.grid-container');
 const projectList = [
   {
     title: 'Your to-do list',
-    github: 'https://snikerslala.github.io/js_todo_tasks/',
+    github: 'https://martynaskup.github.io/js_todo_tasks/',
     img1: './images/ToDo.png',
     desc:
       'Add the tasks you have to do in the future, search and delete them and check which deadlines did you miss already.',
@@ -11,7 +11,7 @@ const projectList = [
   },
   {
     title: 'Guest book',
-    github: 'https://snikerslala.github.io/guest_book/',
+    github: 'https://martynaskup.github.io/guest_book/',
     img1: './images/GuestBook-Entries.png',
     desc:
       'Let your guests to leave comments and display the guest book entries.',
@@ -19,21 +19,21 @@ const projectList = [
   },
   {
     title: 'Image Search',
-    github: 'https://snikerslala.github.io/image-search/',
+    github: 'https://martynaskup.github.io/image-search/',
     img1: './images/ImageSearch.png',
     desc: 'Looking for a picture? Use this search engine!',
     tech: 'React, JavaScript, unsplash API'
   },
   {
     title: 'Dancing Robot',
-    github: 'https://snikerslala.github.io/60_dancing_robot/',
+    github: 'https://martynaskup.github.io/60_dancing_robot/',
     img1: './images/DancingRobot.png',
     desc: 'Check out how this robot can dance! You can do the same!',
     tech: 'HTML5, CSS3'
   },
   {
     title: 'Friendscards',
-    github: 'https://snikerslala.github.io/friendscards/',
+    github: 'https://martynaskup.github.io/friendscards/',
     img1: './images/Friendscards.png',
     desc: 'Search for your Cat Friends<br>and view their contact information.',
     tech:
@@ -41,7 +41,7 @@ const projectList = [
   },
   {
     title: 'Background Generator',
-    github: 'https://snikerslala.github.io/background_generator/',
+    github: 'https://martynaskup.github.io/background_generator/',
     img1: './images/BackgroundGenerator.png',
     desc:
       'Generate a gradient background code based on random colors or colors chosen by you!',
